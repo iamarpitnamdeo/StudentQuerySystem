@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="post" action="./RegServlet">
+Name<input type="text" name="t1" required>
+<br>
+Email<input type="email" name="t2" required>
+<br>
+Password<input type="password" name="pass" required>
+<br>
+Mobile<input type="text" name="t3" required pattern=[1-9]{10}>
+<br>
+Branch/Department
+<select name="t4">
+<option>CSE</option><option>IT</option><option>EC</option><option>CE</option>
+</select>
+<br>
+User Type
+<select name="t5">
+<option>Student</option><option>Teacher</option>
+</select>
+<br>
+<p>
+<input type="submit" name="b1" value="Submit"/>
+</form>
+</body>
+</html>
